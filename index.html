@@ -48,21 +48,71 @@
       <div class="section-heading">
         <p class="eyebrow red">The buffet, up close</p>
         <h2 id="favorites-title">Three reasons to fill your plate.</h2>
-        <p>Choose a stack to open the full collection.</p>
+        <p>Swipe through each spread.</p>
       </div>
-      <div class="stack-grid">
-        <button class="photo-stack" type="button" data-gallery="seafood" aria-label="Open Seafood photo gallery">
-          <span class="stack-visual" aria-hidden="true"><img src="./images/seafood-new-01.png" alt=""><img src="./images/seafood-new-02.png" alt=""><img src="./images/seafood-new-03.png" alt=""></span>
-          <span class="stack-copy"><strong>Seafood</strong><small>Crab, shrimp, crawfish and more</small><em>View 7 photos</em></span>
-        </button>
-        <button class="photo-stack" type="button" data-gallery="sushi" aria-label="Open Sushi photo gallery">
-          <span class="stack-visual" aria-hidden="true"><img src="./images/sushi-new-03.png" alt=""><img src="./images/sushi-new-04.png" alt=""><img src="./images/sushi-new-05.png" alt=""></span>
-          <span class="stack-copy"><strong>Sushi</strong><small>Fresh rolls made for sharing</small><em>View 4 photos</em></span>
-        </button>
-        <button class="photo-stack" type="button" data-gallery="hibachi" aria-label="Open Hibachi photo gallery">
-          <span class="stack-visual" aria-hidden="true"><img src="./images/hibachi-new-01.png" alt=""><img src="./images/hibachi-new-02.png" alt=""><img src="./images/hibachi-new-03.png" alt=""></span>
-          <span class="stack-copy"><strong>Hibachi</strong><small>Built your way, grilled hot</small><em>View 4 photos</em></span>
-        </button>
+
+      <div class="gallery-row" data-gallery="seafood">
+        <div class="gallery-row-head">
+          <div><strong>Seafood</strong><small>Crab, shrimp, crawfish and more</small></div>
+          <div class="gallery-nav">
+            <button type="button" class="gallery-prev" aria-label="Previous seafood photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="gallery-next" aria-label="Next seafood photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="gallery-strip-frame">
+          <div class="gallery-strip">
+            <figure><img src="./images/seafood-cover.jpg" alt="Seafood buffet station with shrimp, oysters and clams on ice" loading="lazy"><figcaption>Seafood buffet station</figcaption></figure>
+            <figure><img src="./images/seafood-content.jpg" alt="Seafood salads including spicy squid and kimchi" loading="lazy"><figcaption>Seafood salads &amp; banchan</figcaption></figure>
+            <figure><img src="./images/seafood-new-01.png" alt="Fresh oysters on ice with lemon" loading="lazy"><figcaption>Fresh oysters on ice</figcaption></figure>
+            <figure><img src="./images/seafood-new-02.png" alt="Grilled salmon, lobster tail and shrimp" loading="lazy"><figcaption>Grilled salmon, lobster tail &amp; shrimp</figcaption></figure>
+            <figure><img src="./images/seafood-new-03.png" alt="Buffet seafood station with crawfish and shrimp" loading="lazy"><figcaption>Buffet seafood station</figcaption></figure>
+            <figure><img src="./assets/hero-seafood.jpg" alt="Crab, shrimp, crawfish and corn seafood feast" loading="lazy"><figcaption>Crab, shrimp, crawfish &amp; corn feast</figcaption></figure>
+            <figure><img src="./images/drive-08.jpg" alt="Hot seafood buffet selection" loading="lazy"><figcaption>Hot seafood buffet selection</figcaption></figure>
+            <figure><img src="./images/drive-09.jpg" alt="Seasoned seafood at the buffet" loading="lazy"><figcaption>Seasoned seafood at the buffet</figcaption></figure>
+            <figure><img src="./images/drive-10.jpg" alt="Crab legs and seafood buffet" loading="lazy"><figcaption>Crab legs &amp; seafood buffet</figcaption></figure>
+          </div>
+        </div>
+        <div class="gallery-dots"></div>
+      </div>
+
+      <div class="gallery-row" data-gallery="sushi">
+        <div class="gallery-row-head">
+          <div><strong>Sushi</strong><small>Fresh rolls made for sharing</small></div>
+          <div class="gallery-nav">
+            <button type="button" class="gallery-prev" aria-label="Previous sushi photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="gallery-next" aria-label="Next sushi photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="gallery-strip-frame">
+          <div class="gallery-strip">
+            <figure><img src="./images/sushi-cover.jpg" alt="Sushi roll trays on ice at the buffet" loading="lazy"><figcaption>Sushi rolls on ice</figcaption></figure>
+            <figure><img src="./images/sushi-new-03.png" alt="Assorted sushi rolls and nigiri platter" loading="lazy"><figcaption>Assorted rolls &amp; nigiri platter</figcaption></figure>
+            <figure><img src="./images/sushi-new-04.png" alt="Close-up shrimp sushi roll" loading="lazy"><figcaption>Close-up shrimp roll</figcaption></figure>
+            <figure><img src="./images/sushi-new-05.png" alt="Salmon and specialty sushi rolls" loading="lazy"><figcaption>Salmon &amp; specialty rolls</figcaption></figure>
+            <figure><img src="./images/sushi-new-02.png" alt="Fresh sushi rolls at the buffet" loading="lazy"><figcaption>Fresh rolls at the buffet</figcaption></figure>
+          </div>
+        </div>
+        <div class="gallery-dots"></div>
+      </div>
+
+      <div class="gallery-row" data-gallery="hibachi">
+        <div class="gallery-row-head">
+          <div><strong>Hibachi</strong><small>Built your way, grilled hot</small></div>
+          <div class="gallery-nav">
+            <button type="button" class="gallery-prev" aria-label="Previous hibachi photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="gallery-next" aria-label="Next hibachi photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="gallery-strip-frame">
+          <div class="gallery-strip">
+            <figure><img src="./images/hibachi-cover.jpg" alt="Raw hibachi ingredients station with meat, shrimp and vegetables" loading="lazy"><figcaption>Build your own hibachi plate</figcaption></figure>
+            <figure><img src="./images/hibachi-new-01.png" alt="Hibachi chef flame-grilling at the table" loading="lazy"><figcaption>Chef flame-grilling tableside</figcaption></figure>
+            <figure><img src="./images/hibachi-new-02.png" alt="Hibachi grill with fried rice, noodles, steak and shrimp" loading="lazy"><figcaption>Fried rice, noodles, steak &amp; shrimp</figcaption></figure>
+            <figure><img src="./images/hibachi-new-03.png" alt="Hibachi plate with steak, shrimp and fried rice" loading="lazy"><figcaption>Plated steak, shrimp &amp; fried rice</figcaption></figure>
+            <figure><img src="./images/drive-05.jpg" alt="Flaming Grill hibachi station" loading="lazy"><figcaption>Flaming Grill hibachi station</figcaption></figure>
+          </div>
+        </div>
+        <div class="gallery-dots"></div>
       </div>
     </section>
 
@@ -110,11 +160,6 @@
 
   <footer><img src="./images/flaming-grill-transparent.png" alt="Flaming Grill & Supreme Buffet"><p>Hibachi · Sushi · Seafood · Family Dining</p><p>2770 Hooper Ave, Brick, NJ 08723</p><small>© 2026 Flaming Grill & Supreme Buffet.</small></footer>
 
-  <dialog class="gallery-dialog" aria-labelledby="gallery-title">
-    <div class="dialog-topbar"><div><span>Flaming Grill</span><h2 id="gallery-title">Gallery</h2></div><button class="dialog-close" type="button">Close</button></div>
-    <div class="gallery-stage"><button class="gallery-control gallery-prev" type="button">Previous</button><figure><img class="gallery-main" src="./assets/hero-seafood.jpg" alt="Seafood buffet"><figcaption class="gallery-count"></figcaption></figure><button class="gallery-control gallery-next" type="button">Next</button></div>
-    <div class="gallery-thumbs" aria-label="Choose a photo"></div>
-  </dialog>
   <script src="script.js"></script>
 </body>
 </html>
